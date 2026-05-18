@@ -1,0 +1,425 @@
+{
+  "blackflash": {
+    "sounds": ["custom/blackflash"]
+  },
+  "clap": {
+    "sounds": ["custom/clap"]
+  },
+  "ethgar_roar": {
+    "sounds": ["custom/ethgar_roar"]
+  },
+  "ethgar_slash": {
+    "sounds": ["custom/ethgar_slash"]
+  },
+  "ethgar_hit": {
+    "sounds": ["custom/ethgar_hit"]
+  },
+  "ethgar_windup": {
+    "sounds": ["custom/ethgar_windup"]
+  },
+  "magma_rift": {
+    "sounds": ["custom/magma_rift"]
+  },
+  "eldritch_burst": {
+    "sounds": ["custom/eldritch_burst"]
+  },
+  "ghost_focus": {
+    "sounds": ["custom/ghost_focus"]
+  },
+  "punch": {
+    "sounds": ["custom/punch"]
+  },
+  "punch_windup": {
+    "sounds": ["custom/punch_windup"]
+  },
+  "hornet_shaw": {
+    "sounds": ["custom/hornet_shaw"]
+  },
+  "hornet_gitgud": {
+    "sounds": ["custom/hornet_gitgud"]
+  },
+  "hornet_higale": {
+    "sounds": ["custom/hornet_higale"]
+  },
+  "hornet_edino": {
+    "sounds": ["custom/hornet_edino"]
+  },
+  "hornet_laugh": {
+    "sounds": ["custom/hornet_laugh"]
+  },
+  "goc_1": {
+    "sounds": ["custom/goc_1"]
+  },
+  "goc_2": {
+    "sounds": ["custom/goc_2"]
+  },
+  "goc_3": {
+    "sounds": ["custom/goc_3"]
+  },
+  "goc_5": {
+    "sounds": ["custom/goc_5"]
+  },
+  "capcut_explosion": {
+    "sounds": ["custom/capcut_explosion"]
+  },
+  "fireball_sfx": {
+    "sounds": ["custom/fireball_sfx"]
+  },
+  "divine_smite": {
+    "sounds": ["custom/divine_smite"]
+  },
+  "doakes": {
+    "sounds": ["custom/doakes"]
+  },
+  "electric": {
+    "sounds": ["custom/electric"]
+  },
+  "lightning_hit": {
+    "sounds": ["custom/lightning_hit"]
+  },
+  "corbin_crit": {
+    "sounds": ["custom/corbin_crit"]
+  },
+  "deflect_1": {
+    "sounds": ["custom/deflect_1"]
+  },
+  "deflect_2": {
+    "sounds": ["custom/deflect_2"]
+  },
+  "duhr_impact": {
+    "sounds": ["custom/duhr_impact"]
+  },
+  "stagger": {
+    "sounds": ["custom/stagger"]
+  },
+  "vibraslap": {
+    "sounds": ["custom/vibraslap"]
+  },
+  "torak_ult": {
+    "sounds": ["custom/torak_ult"]
+  },
+  "torak_ult2": {
+    "sounds": ["custom/torak_ult2"]
+  },
+  "protesphere": {
+    "sounds": ["custom/protesphere"]
+  },
+  "protesphere_hurt": {
+    "sounds": ["custom/protesphere_hurt"]
+  },
+  "mobiliflash": {
+    "sounds": ["custom/mobiliflash"]
+  },
+  "pyrax_cleave": {
+    "sounds": ["custom/pyrax_cleave"]
+  },
+  "pyrax_kai": {
+    "sounds": ["custom/pyrax_kai"]
+  },
+  "pyrax_domain": {
+    "sounds": ["custom/pyrax_domain"]
+  },
+  "pyrax_domain2": {
+    "sounds": ["custom/pyrax_domain2"]
+  },
+  "star_fury": {
+    "sounds": ["custom/star_fury"]
+  },
+  "moonbeam": {
+    "sounds": ["custom/moonbeam"]
+  },
+  "dice_roll": {
+    "sounds": ["custom/dice_roll"]
+  },
+  "slots": {
+    "sounds": ["custom/slots"]
+  },
+  "shotgun": {
+    "sounds": ["custom/shotgun"]
+  },
+  "shotgun_reload": {
+    "sounds": ["custom/shotgun_reload"]
+  },
+  "lust_card": {
+    "sounds": ["custom/lust_card"]
+  },
+  "kuro_theme": {
+    "sounds": ["custom/kuro_theme"]
+  },
+  "descending_dark": {
+    "sounds": ["custom/descending_dark"]
+  },
+  "descending_dark_prep": {
+    "sounds": ["custom/descending_dark_prep"]
+  },
+  "abyss_shriek": {
+    "sounds": ["custom/abyss_shriek"]
+  },
+  "nail_charge": {
+    "sounds": ["custom/nail_charge"]
+  },
+  "great_slash": {
+    "sounds": ["custom/great_slash"]
+  },
+  "cyclone_slash": {
+    "sounds": ["custom/cyclone_slash"]
+  },
+  "jackpot": {
+    "sounds": ["custom/jackpot"]
+  },
+  "shade_cloak": {
+    "sounds": ["custom/shade_cloak"]
+  },
+  "hornet_garama": {
+    "sounds": ["custom/hornet_garama"]
+  },
+  "clawline": {
+    "sounds": ["custom/clawline"]
+  },
+  "clawline_tp": {
+    "sounds": ["custom/clawline_tp"]
+  },
+  "cross_stitch": {
+    "sounds": ["custom/cross_stitch"]
+  },
+  "stitch_parry": {
+    "sounds": ["custom/stitch_parry"]
+  },
+  "hornet_parry": {
+    "sounds": ["custom/hornet_parry"]
+  },
+  "silk_spear": {
+    "sounds": ["custom/silk_spear"]
+  },
+  "entangle_secret": {
+    "sounds": ["custom/entangle_secret"]
+  },
+  "mech_secret": {
+    "sounds": ["custom/mech_secret"]
+  },
+  "game_start1": {
+    "sounds": ["custom/game_start1"]
+  },
+  "game_start2": {
+    "sounds": ["custom/game_start2"]
+  },
+  "game_start3": {
+    "sounds": ["custom/game_start3"]
+  },
+  "game_start4": {
+    "sounds": ["custom/game_start4"]
+  },
+  "game_start5": {
+    "sounds": ["custom/game_start5"]
+  },
+  "game_end1": {
+    "sounds": ["custom/game_end1"]
+  },
+  "game_end2": {
+    "sounds": ["custom/game_end2"]
+  },
+  "kuro_secret": {
+    "sounds": ["custom/kuro_secret"]
+  },
+  "lust_secret": {
+    "sounds": ["custom/lust_secret"]
+  },
+  "fraud_secret": {
+    "sounds": ["custom/fraud_secret"]
+  },
+  "meteor_secret": {
+    "sounds": ["custom/meteor_secret"]
+  },
+  "stunning_secret": {
+    "sounds": ["custom/stunning_secret"]
+  },
+  "culling_secret1": {
+    "sounds": ["custom/culling_secret1"]
+  },
+  "culling_secret2": {
+    "sounds": ["custom/culling_secret2"]
+  },
+  "lucian_secret1": {
+    "sounds": ["custom/lucian_secret1"]
+  },
+  "lucian_secret2": {
+    "sounds": ["custom/lucian_secret2"]
+  },
+  "lucian_secret3": {
+    "sounds": ["custom/lucian_secret3"]
+  },
+  "spore_secret": {
+    "sounds": ["custom/spore_secret"]
+  },
+  "bruteforce_secret": {
+    "sounds": ["custom/bruteforce_secret"]
+  },
+  "generalred_secret": {
+    "sounds": ["custom/generalred_secret"]
+  },
+  "round_2": {
+    "sounds": ["custom/round_2"]
+  },
+  "cuphead_start1": {
+    "sounds": ["custom/cuphead_start1"]
+  },
+  "cuphead_start2": {
+    "sounds": ["custom/cuphead_start2"]
+  },
+  "cuphead_1": {
+    "sounds": ["custom/cuphead_1"]
+  },
+  "cuphead_2": {
+    "sounds": ["custom/cuphead_2"]
+  },
+  "cuphead_3": {
+    "sounds": ["custom/cuphead_3"]
+  },
+  "cuphead_4": {
+    "sounds": ["custom/cuphead_4"]
+  },
+  "you_absolute_idiot": {
+    "sounds": ["custom/you_absolute_idiot"]
+  },
+  "divine_smite2": {
+    "sounds": ["custom/divine_smite2"]
+  },
+  "requiem_blaze": {
+    "sounds": ["custom/requiem_blaze"]
+  },
+  "ocean_wave": {
+    "sounds": ["custom/ocean_wave"]
+  },
+  "arthur1": {
+    "sounds": ["custom/arthur1"]
+  },
+  "arthur2": {
+    "sounds": ["custom/arthur2"]
+  },
+  "arthur3": {
+    "sounds": ["custom/arthur3"]
+  },
+  "coin_flip": {
+    "sounds": ["custom/coin_flip"]
+  },
+  "jackpot_song": {
+    "sounds": ["custom/jackpot_song"]
+  },
+  "jackpot_200": {
+    "sounds": ["custom/jackpot_200"]
+  },
+  "fierce_battle": {
+    "sounds": ["custom/fierce_battle"]
+  },
+  "bubble_pop_electric": {
+    "sounds": ["custom/bubble_pop_electric"]
+  },
+  "kurourushi_ult": {
+    "sounds": ["custom/kurourushi_ult"]
+  },
+  "style_trickster": {
+    "sounds": ["custom/style_trickster"]
+  },
+  "style_swordmaster": {
+    "sounds": ["custom/style_swordmaster"]
+  },
+  "style_gunslinger": {
+    "sounds": ["custom/style_gunslinger"]
+  },
+  "style_royalguard": {
+    "sounds": ["custom/style_royalguard"]
+  },
+  "ebonyivory": {
+    "sounds": ["custom/ebonyivory"]
+  },
+  "dmc_d1": {
+    "sounds": ["custom/dmc_d1"]
+  },
+  "dmc_d2": {
+    "sounds": ["custom/dmc_d2"]
+  },
+  "dmc_c1": {
+    "sounds": ["custom/dmc_c1"]
+  },
+  "dmc_c2": {
+    "sounds": ["custom/dmc_c2"]
+  },
+  "dmc_b1": {
+    "sounds": ["custom/dmc_b1"]
+  },
+  "dmc_b2": {
+    "sounds": ["custom/dmc_b2"]
+  },
+  "dmc_a1": {
+    "sounds": ["custom/dmc_a1"]
+  },
+  "dmc_a2": {
+    "sounds": ["custom/dmc_a2"]
+  },
+  "dmc_s1": {
+    "sounds": ["custom/dmc_s1"]
+  },
+  "dmc_s2": {
+    "sounds": ["custom/dmc_s2"]
+  },
+  "dmc_ss": {
+    "sounds": ["custom/dmc_ss"]
+  },
+  "dmc_sss": {
+    "sounds": ["custom/dmc_sss"]
+  },
+  "dante_dt": {
+    "sounds": ["custom/dante_dt"]
+  },
+  "vergil_fun": {
+    "sounds": ["custom/vergil_fun"]
+  },
+  "vergil_might": {
+    "sounds": ["custom/vergil_might"]
+  },
+  "vergil_sdt": {
+    "sounds": ["custom/vergil_sdt"]
+  },
+  "vergil_motivated": {
+    "sounds": ["custom/vergil_motivated"]
+  },
+  "vergil_storm": {
+    "sounds": ["custom/vergil_storm"]
+  },
+  "metal_pipe": {
+    "sounds": ["custom/metal_pipe"]
+  },
+  "taco_bell": {
+    "sounds": ["custom/taco_bell"]
+  },
+  "oof": {
+    "sounds": ["custom/oof"]
+  },
+  "reverb_oof": {
+    "sounds": ["custom/reverb_oof"]
+  },
+  "reverb_fart": {
+    "sounds": ["custom/reverb_fart"]
+  },
+  "android": {
+    "sounds": ["custom/android"]
+  },
+  "faaah": {
+    "sounds": ["custom/faaah"]
+  },
+  "bass_drop": {
+    "sounds": ["custom/bass_drop"]
+  },
+  "undertale_death": {
+    "sounds": ["custom/undertale_death"]
+  },
+  "wake_reality": {
+    "sounds": ["custom/wake_reality"]
+  },
+  "buttercup": {
+    "sounds": ["custom/buttercup"]
+  },
+  "brain_fart": {
+    "sounds": ["custom/brain_fart"]
+  }
+}
