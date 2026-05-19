@@ -20,10 +20,10 @@ jobs:
 
       - name: Prepare variables
         id: vars
+        shell: bash
         run: |
           SHORT_SHA=$(git rev-parse --short HEAD)
 
-          # Remove [release] from commit message
           CLEAN_MESSAGE=$(echo "${{ github.event.head_commit.message }}" | sed 's/\[release\]//g' | xargs)
 
           ZIP_NAME="resourcepack-${SHORT_SHA}.zip"
@@ -33,6 +33,7 @@ jobs:
           echo "zip_name=$ZIP_NAME" >> $GITHUB_OUTPUT
 
       - name: Create zip archive
+        shell: bash
         run: |
           zip -r "${{ steps.vars.outputs.zip_name }}" \
             assets \
@@ -40,14 +41,35 @@ jobs:
             pack.png \
             README.md
 
+      - name: Verify zip exists
+        shell: bash
+        run: |
+          echo "Created files:"
+          ls -lah
+
+          echo ""
+          echo "Zip info:"
+          file "${{ steps.vars.outputs.zip_name }}"
+
       - name: Generate SHA1 hash
         id: hash
+        shell: bash
         run: |
           SHA1=$(sha1sum "${{ steps.vars.outputs.zip_name }}" | awk '{print $1}')
 
           echo "sha1=$SHA1" >> $GITHUB_OUTPUT
 
+      - name: Delete existing release/tag if it exists
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        shell: bash
+        run: |
+          gh release delete "release-${{ steps.vars.outputs.short_sha }}" --yes || true
+          git push origin ":refs/tags/release-${{ steps.vars.outputs.short_sha }}" || true
+
       - name: Create release notes
+        shell: bash
         run: |
           cat <<EOF > release_notes.md
           ## Download
@@ -69,5 +91,8 @@ jobs:
           body_path: release_notes.md
           files: |
             ${{ steps.vars.outputs.zip_name }}
+          overwrite_files: true
+          make_latest: true
+          fail_on_unmatched_files: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
