@@ -1,7 +1,7 @@
 {
 	"format_version": "1.21.11",
 	"credit": "Made with Blockbench",
-	"parent": "minecraft:item/handheld",
+	"parent": "minecraft:item/generated",
 	"textures": {
 		"layer0": "item/corbin_feather"
 	},
