@@ -1,10 +1,11 @@
 {
+	"format_version": "1.21.11",
 	"credit": "Made with Blockbench",
 	"textures": {
-		"1": "minecraft:item/yamato",
-		"3": "minecraft:item/yamato3",
-		"4": "minecraft:item/yamato5",
-		"particle": "minecraft:item/yamato"
+		"1": "item/yamato",
+		"3": "item/yamato3",
+		"4": "item/yamato5",
+		"particle": "item/yamato"
 	},
 	"elements": [
 		{
@@ -390,12 +391,12 @@
 			"scale": [1.5, 1.5, 1.5]
 		},
 		"head": {
-			"rotation": [180, 0, 45],
+			"rotation": [-180, 0, 45],
 			"translation": [0, -14.75, 4.75],
 			"scale": [3.5, 3.5, 3.5]
 		},
 		"fixed": {
-			"rotation": [180, 0, 135],
+			"rotation": [-180, 0, 135],
 			"translation": [-0.75, 2.5, 0],
 			"scale": [2, 2, 2]
 		}
@@ -405,36 +406,42 @@
 		{
 			"name": "1",
 			"origin": [8, 8, 8],
+			"scope": 0,
 			"color": 0,
 			"children": [1, 2, 3, 4, 5, 6, 7, 8]
 		},
 		{
 			"name": "2",
 			"origin": [8, 8, 8],
+			"scope": 0,
 			"color": 0,
 			"children": [9, 10, 11, 12, 13, 14, 15]
 		},
 		{
 			"name": "3",
 			"origin": [8, 8, 8],
+			"scope": 0,
 			"color": 0,
 			"children": [16]
 		},
 		{
 			"name": "4",
 			"origin": [8, 8, 8],
+			"scope": 0,
 			"color": 0,
 			"children": [17, 18]
 		},
 		{
 			"name": "5",
 			"origin": [8, 8, 8],
+			"scope": 0,
 			"color": 0,
 			"children": [19, 20, 21, 22, 23, 24, 25, 26, 27]
 		},
 		{
 			"name": "6",
 			"origin": [8, 8, 8],
+			"scope": 0,
 			"color": 0,
 			"children": [28, 29]
 		}
