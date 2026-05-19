@@ -1,0 +1,73 @@
+name: Create Resource Pack Release
+
+on:
+  push:
+    branches:
+      - main
+      - master
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    if: contains(github.event.head_commit.message, '[release]')
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Prepare variables
+        id: vars
+        run: |
+          SHORT_SHA=$(git rev-parse --short HEAD)
+
+          # Remove [release] from commit message
+          CLEAN_MESSAGE=$(echo "${{ github.event.head_commit.message }}" | sed 's/\[release\]//g' | xargs)
+
+          ZIP_NAME="resourcepack-${SHORT_SHA}.zip"
+
+          echo "short_sha=$SHORT_SHA" >> $GITHUB_OUTPUT
+          echo "clean_message=$CLEAN_MESSAGE" >> $GITHUB_OUTPUT
+          echo "zip_name=$ZIP_NAME" >> $GITHUB_OUTPUT
+
+      - name: Create zip archive
+        run: |
+          zip -r "${{ steps.vars.outputs.zip_name }}" \
+            assets \
+            pack.mcmeta \
+            pack.png \
+            README.md
+
+      - name: Generate SHA1 hash
+        id: hash
+        run: |
+          SHA1=$(sha1sum "${{ steps.vars.outputs.zip_name }}" | awk '{print $1}')
+
+          echo "sha1=$SHA1" >> $GITHUB_OUTPUT
+
+      - name: Create release notes
+        run: |
+          cat <<EOF > release_notes.md
+          ## Download
+
+          **File:** ${{ steps.vars.outputs.zip_name }}
+
+          **URL:**  
+          https://github.com/${{ github.repository }}/releases/download/release-${{ steps.vars.outputs.short_sha }}/${{ steps.vars.outputs.zip_name }}
+
+          **SHA1:**  
+          \`${{ steps.hash.outputs.sha1 }}\`
+          EOF
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: release-${{ steps.vars.outputs.short_sha }}
+          name: ${{ steps.vars.outputs.clean_message }}
+          body_path: release_notes.md
+          files: |
+            ${{ steps.vars.outputs.zip_name }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
