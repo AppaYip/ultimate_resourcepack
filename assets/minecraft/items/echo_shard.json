@@ -1,0 +1,21 @@
+{
+  "oversized_in_gui": true,
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/echo_shard"
+    },
+    "cases": [
+      {
+        "when": "vergil_yamatosheathe",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:vergil/yamato_sheathe"
+        }
+      }
+    ]
+  }
+}

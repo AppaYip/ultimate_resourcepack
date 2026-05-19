@@ -1,0 +1,33 @@
+{
+  "oversized_in_gui": true,
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/end_crystal"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed"
+        ]
+      },
+       {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/end_crystal_hand"
+        },
+        "when": [
+          "thirdperson_lefthand",
+          "thirdperson_righthand",
+          "firstperson_lefthand",
+          "firstperson_righthand",
+		  "head"
+        ]
+      }
+    ]
+  }
+}

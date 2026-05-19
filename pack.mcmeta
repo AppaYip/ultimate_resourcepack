@@ -1,0 +1,10 @@
+{
+  "pack": {
+    "description": {
+      "text": "Welcome to Ultimate!",
+      "color": "#26a215"
+    },
+    "min_format": 75,
+    "max_format": 75
+  }
+}
