@@ -386,6 +386,12 @@
   "vergil_storm": {
     "sounds": ["custom/vergil_storm"]
   },
+  "lapse_blue_gong": {
+    "sounds": ["custom/lapse_blue_gong"]
+  },
+  "lapse_blue_impact": {
+    "sounds": ["custom/lapse_blue_impact"]
+  },
   "metal_pipe": {
     "sounds": ["custom/metal_pipe"]
   },
