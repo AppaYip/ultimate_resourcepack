@@ -11,9 +11,6 @@
   "ethgar_slash": {
     "sounds": ["custom/ethgar_slash"]
   },
-  "ethgar_hit": {
-    "sounds": ["custom/ethgar_hit"]
-  },
   "ethgar_windup": {
     "sounds": ["custom/ethgar_windup"]
   },
