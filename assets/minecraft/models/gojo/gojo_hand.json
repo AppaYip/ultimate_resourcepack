@@ -1,0 +1,60 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "item/gojo",
+		"particle": "item/gojo"
+	},
+	"elements": [
+		{
+			"name": "gojo arm 1",
+			"from": [7, 5, 8],
+			"to": [9, 11, 10],
+			"rotation": {"x": 90, "y": 0, "z": 0, "origin": [8, 8, 9]},
+			"faces": {
+				"north": {"uv": [10, 5, 11, 8], "texture": "#0"},
+				"east": {"uv": [13, 5, 14, 8], "texture": "#0"},
+				"south": {"uv": [12, 5, 13, 8], "texture": "#0"},
+				"west": {"uv": [11, 5, 12, 8], "texture": "#0"},
+				"up": {"uv": [11, 4, 12, 5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [12, 5, 13, 4], "rotation": 270, "texture": "#0"}
+			}
+		},
+		{
+			"name": "gojo arm layer",
+			"from": [6.85, 5, 7.85],
+			"to": [9.15, 11, 10.15],
+			"rotation": {"x": 90, "y": 0, "z": 0, "origin": [8, 8, 9]},
+			"faces": {
+				"north": {"uv": [10.2, 9, 11, 12], "texture": "#0"},
+				"east": {"uv": [12.95, 9, 14, 12], "texture": "#0"},
+				"south": {"uv": [12, 9, 13.05, 12], "texture": "#0"},
+				"west": {"uv": [11, 9, 12.05, 12], "texture": "#0"},
+				"up": {"uv": [0, 0, 0.8, 1.05], "texture": "#0"},
+				"down": {"uv": [0, 0, 0.8, 1.05], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, 0, -90],
+			"translation": [0, -2, 4],
+			"scale": [2, 2, 2]
+		},
+		"firstperson_righthand": {
+			"rotation": [30, -19, -26],
+			"translation": [-0.25, 1.5, -0.5],
+			"scale": [1.6, 1.6, 1.6]
+		},
+		"ground": {
+			"rotation": [90, 45, -90],
+			"translation": [-0.25, 0, 0],
+			"scale": [2, 2, 2]
+		},
+		"gui": {
+			"rotation": [-130, 167, 134],
+			"translation": [2, -3.5, 0],
+			"scale": [3, 3, 3]
+		}
+	}
+}

@@ -1,5 +1,5 @@
 {
-  "oversized_in_gui": true,
+  "oversized_in_gui": false,
   "model": {
     "type": "minecraft:select",
     "property": "minecraft:custom_model_data",
@@ -14,6 +14,14 @@
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:riddles/riddles_staff"
+        }
+      },
+
+      {
+        "when": "gojo_fist",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:gojo/gojo_hand"
         }
       }
     ]
