@@ -389,6 +389,9 @@
   "lapse_blue_impact": {
     "sounds": ["custom/lapse_blue_impact"]
   },
+  "gojo_blackflash": {
+    "sounds": ["custom/gojo_blackflash"]
+  },
   "gojo_domain": {
     "sounds": ["custom/gojo_domain"]
   },
