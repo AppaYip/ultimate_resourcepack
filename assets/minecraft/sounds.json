@@ -119,6 +119,9 @@
   "pyrax_domain2": {
     "sounds": ["custom/pyrax_domain2"]
   },
+  "sukuna_sfx": {
+    "sounds": ["custom/sukuna_sfx"]
+  },
   "star_fury": {
     "sounds": ["custom/star_fury"]
   },
@@ -397,6 +400,9 @@
   },
   "hollow_purple": {
     "sounds": ["custom/hollow_purple"]
+  },
+  "domain_clash": {
+    "sounds": ["custom/domain_clash"]
   },
   "metal_pipe": {
     "sounds": ["custom/metal_pipe"]
