@@ -26,6 +26,14 @@
       },
 
       {
+        "when": "yuta_katana",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:yuta/yuta_katana"
+        }
+      },
+
+      {
         "when": "toji_spear",
         "model": {
           "type": "minecraft:model",

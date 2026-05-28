@@ -410,8 +410,8 @@
   "rika_2": {
     "sounds": ["custom/rika_2"]
   },
-  "yuta_1": {
-    "sounds": ["custom/yuta_1"]
+  "yuta_throw": {
+    "sounds": ["custom/yuta_throw"]
   },
   "metal_pipe": {
     "sounds": ["custom/metal_pipe"]

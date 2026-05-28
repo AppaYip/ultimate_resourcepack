@@ -18,6 +18,14 @@
       },
 
       {
+        "when": "yuta_arm",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:yuta/yuta_arm"
+        }
+      },
+
+      {
         "when": "gojo_fist",
         "model": {
           "type": "minecraft:model",
