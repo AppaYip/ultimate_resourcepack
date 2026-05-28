@@ -1,0 +1,56 @@
+{
+  "oversized_in_gui": true,
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/iron_horse_armor"
+    },
+    "cases": [
+      {
+        "when": "rika_hand",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:yuta/rikahand"
+        }
+      },
+      {
+        "when": "rika_slam",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:yuta/rikaslam"
+        }
+      },
+      {
+        "when": "rika_launch",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:yuta/rikalaunch"
+        }
+      },
+      {
+        "when": "rika_partial",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:yuta/rikapartial"
+        }
+      },
+      {
+        "when": "rika_partial2",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:yuta/rikapartial2"
+        }
+      },
+      {
+        "when": "rika_full",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:yuta/rikafull"
+        }
+      }
+    ]
+  }
+}
