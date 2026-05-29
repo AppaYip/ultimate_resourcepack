@@ -413,6 +413,9 @@
   "yuta_throw": {
     "sounds": ["custom/yuta_throw"]
   },
+  "pure_love": {
+    "sounds": ["custom/pure_love"]
+  },
   "metal_pipe": {
     "sounds": ["custom/metal_pipe"]
   },
