@@ -1,0 +1,34 @@
+{
+  "oversized_in_gui": true,
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/book"
+    },
+    "cases": [
+      { "when": "sunflower_sunflower", "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:sunflower/sunflower"}
+      },
+
+      { "when": "sunflower_repeater", "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:sunflower/repeater"}
+      },
+
+      { "when": "sunflower_peashooter", "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:sunflower/peashooter" }
+      },
+
+      { "when": "sunflower_wallnut", "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:sunflower/wallnut"}
+      }
+
+    ]
+  }
+}
