@@ -1,104 +1,102 @@
 name: Create Resource Pack Release
 
 on:
-push:
-branches:
-- main
-- master
-workflow_dispatch:
+  push:
+    branches:
+      - main
+      - master
+  workflow_dispatch:
 
 permissions:
-contents: write
+  contents: write
 
 jobs:
-release:
-if: contains(github.event.head_commit.message, '[release]') || github.event_name == 'workflow_dispatch'
-runs-on: ubuntu-latest
+  release:
+    if: contains(github.event.head_commit.message, '[release]') || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
 
-```
-steps:
-  - name: Checkout repository
-    uses: actions/checkout@v4
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-  - name: Prepare variables
-    id: vars
-    shell: bash
-    run: |
-      SHORT_SHA=$(git rev-parse --short HEAD)
+      - name: Prepare variables
+        id: vars
+        shell: bash
+        run: |
+          SHORT_SHA=$(git rev-parse --short HEAD)
 
-      if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-        CLEAN_MESSAGE="Manual Release ${SHORT_SHA}"
-      else
-        CLEAN_MESSAGE=$(echo "${{ github.event.head_commit.message }}" | sed 's/\[release\]//g' | xargs)
-      fi
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            CLEAN_MESSAGE="Manual Release ${SHORT_SHA}"
+          else
+            CLEAN_MESSAGE=$(echo "${{ github.event.head_commit.message }}" | sed 's/\[release\]//g' | xargs)
+          fi
 
-      ZIP_NAME="resourcepack-${SHORT_SHA}.zip"
+          ZIP_NAME="resourcepack-${SHORT_SHA}.zip"
 
-      echo "short_sha=$SHORT_SHA" >> $GITHUB_OUTPUT
-      echo "clean_message=$CLEAN_MESSAGE" >> $GITHUB_OUTPUT
-      echo "zip_name=$ZIP_NAME" >> $GITHUB_OUTPUT
+          echo "short_sha=$SHORT_SHA" >> $GITHUB_OUTPUT
+          echo "clean_message=$CLEAN_MESSAGE" >> $GITHUB_OUTPUT
+          echo "zip_name=$ZIP_NAME" >> $GITHUB_OUTPUT
 
-  - name: Create zip archive
-    shell: bash
-    run: |
-      zip -r "${{ steps.vars.outputs.zip_name }}" \
-        assets \
-        pack.mcmeta \
-        pack.png \
-        README.md
+      - name: Create zip archive
+        shell: bash
+        run: |
+          zip -r "${{ steps.vars.outputs.zip_name }}" \
+            assets \
+            pack.mcmeta \
+            pack.png \
+            README.md
 
-  - name: Verify zip exists
-    shell: bash
-    run: |
-      echo "Created files:"
-      ls -lah
+      - name: Verify zip exists
+        shell: bash
+        run: |
+          echo "Created files:"
+          ls -lah
 
-      echo ""
-      echo "Zip info:"
-      file "${{ steps.vars.outputs.zip_name }}"
+          echo ""
+          echo "Zip info:"
+          file "${{ steps.vars.outputs.zip_name }}"
 
-  - name: Generate SHA1 hash
-    id: hash
-    shell: bash
-    run: |
-      SHA1=$(sha1sum "${{ steps.vars.outputs.zip_name }}" | awk '{print $1}')
-      echo "sha1=$SHA1" >> $GITHUB_OUTPUT
+      - name: Generate SHA1 hash
+        id: hash
+        shell: bash
+        run: |
+          SHA1=$(sha1sum "${{ steps.vars.outputs.zip_name }}" | awk '{print $1}')
+          echo "sha1=$SHA1" >> $GITHUB_OUTPUT
 
-  - name: Delete existing release/tag if it exists
-    continue-on-error: true
-    env:
-      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-    shell: bash
-    run: |
-      gh release delete "release-${{ steps.vars.outputs.short_sha }}" --yes || true
-      git push origin ":refs/tags/release-${{ steps.vars.outputs.short_sha }}" || true
+      - name: Delete existing release/tag if it exists
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        shell: bash
+        run: |
+          gh release delete "release-${{ steps.vars.outputs.short_sha }}" --yes || true
+          git push origin ":refs/tags/release-${{ steps.vars.outputs.short_sha }}" || true
 
-  - name: Create release notes
-    shell: bash
-    run: |
-      cat <<EOF > release_notes.md
-      ## Download
+      - name: Create release notes
+        shell: bash
+        run: |
+          cat <<EOF > release_notes.md
+          ## Download
 
-      **File:** ${{ steps.vars.outputs.zip_name }}
+          **File:** ${{ steps.vars.outputs.zip_name }}
 
-      **URL:**  
-      https://github.com/${{ github.repository }}/releases/download/release-${{ steps.vars.outputs.short_sha }}/${{ steps.vars.outputs.zip_name }}
+          **URL:**  
+          https://github.com/${{ github.repository }}/releases/download/release-${{ steps.vars.outputs.short_sha }}/${{ steps.vars.outputs.zip_name }}
 
-      **SHA1:**  
-      \`${{ steps.hash.outputs.sha1 }}\`
-      EOF
+          **SHA1:**  
+          \`${{ steps.hash.outputs.sha1 }}\`
+          EOF
 
-  - name: Create GitHub Release
-    uses: softprops/action-gh-release@v2
-    with:
-      tag_name: release-${{ steps.vars.outputs.short_sha }}
-      name: ${{ steps.vars.outputs.clean_message }}
-      body_path: release_notes.md
-      files: |
-        ${{ steps.vars.outputs.zip_name }}
-      overwrite_files: true
-      make_latest: true
-      fail_on_unmatched_files: true
-    env:
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-```
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: release-${{ steps.vars.outputs.short_sha }}
+          name: ${{ steps.vars.outputs.clean_message }}
+          body_path: release_notes.md
+          files: |
+            ${{ steps.vars.outputs.zip_name }}
+          overwrite_files: true
+          make_latest: true
+          fail_on_unmatched_files: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
