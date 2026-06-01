@@ -138,6 +138,12 @@
 			}
 		}
 	],
+	"display": {
+		"gui": {
+			"rotation": [20, 130, 0],
+			"translation": [0, 1.5, 0]
+		}
+	},
 	"groups": [
 		{
 			"name": "wall_nut",

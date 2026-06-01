@@ -27,6 +27,11 @@
       { "when": "sunflower_wallnut", "model": {
           "type": "minecraft:model",
           "model": "minecraft:sunflower/wallnut"}
+      },
+
+      { "when": "sunflower_tallnut", "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:sunflower/tallnut"}
       }
 
     ]

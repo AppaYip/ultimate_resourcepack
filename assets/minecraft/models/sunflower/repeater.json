@@ -318,6 +318,13 @@
 			}
 		}
 	],
+	"display": {
+		"gui": {
+			"rotation": [20, 130, 0],
+			"translation": [0, -0.75, 0],
+			"scale": [0.75, 0.75, 0.75]
+		}
+	},
 	"groups": [
 		{
 			"name": "pot",
