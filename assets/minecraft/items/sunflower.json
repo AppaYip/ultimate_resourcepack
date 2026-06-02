@@ -6,7 +6,7 @@
     "index": 0,
     "fallback": {
       "type": "minecraft:model",
-      "model": "minecraft:item/book"
+      "model": "minecraft:item/sunflower"
     },
     "cases": [
       { "when": "sunflower_sunflower", "model": {
