@@ -122,6 +122,9 @@
   "sukuna_sfx": {
     "sounds": ["custom/sukuna_sfx"]
   },
+  "snare_theme": {
+    "sounds": ["custom/snare_theme"]
+  },
   "star_fury": {
     "sounds": ["custom/star_fury"]
   },
@@ -145,6 +148,9 @@
   },
   "kuro_theme": {
     "sounds": ["custom/kuro_theme"]
+  },
+  "kuro_joker": {
+    "sounds": ["custom/kuro_joker"]
   },
   "descending_dark": {
     "sounds": ["custom/descending_dark"]
