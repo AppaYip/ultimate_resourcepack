@@ -194,8 +194,17 @@
   "hornet_parry": {
     "sounds": ["custom/hornet_parry"]
   },
-  "silk_spear": {
-    "sounds": ["custom/silk_spear"]
+  "silkspear": {
+    "sounds": ["custom/silkspear"]
+  },
+  "hornet_dash": {
+    "sounds": ["custom/hornet_dash"]
+  },
+  "thread_storm1": {
+    "sounds": ["custom/thread_storm1"]
+  },
+  "thread_storm2": {
+    "sounds": ["custom/thread_storm2"]
   },
   "entangle_secret": {
     "sounds": ["custom/entangle_secret"]
