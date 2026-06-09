@@ -320,6 +320,9 @@
   "bubble_pop_electric": {
     "sounds": ["custom/bubble_pop_electric"]
   },
+  "wally_west": {
+    "sounds": ["custom/wally_west"]
+  },
   "kurourushi_ult": {
     "sounds": ["custom/kurourushi_ult"]
   },
