@@ -469,5 +469,21 @@
   },
   "brain_fart": {
     "sounds": ["custom/brain_fart"]
+  },
+
+  "peashooter_shoot": {
+    "sounds": ["custom/solarflare/peashooter_shoot"]
+  },
+  "cobcannon_explode": {
+    "sounds": ["custom/solarflare/cobcannon_explode"]
+  },
+  "cobcannon_launch": {
+    "sounds": ["custom/solarflare/cobcannon_launch"]
+  },
+    "plant2": {
+    "sounds": ["custom/solarflare/plant2"]
+  },
+    "plant1": {
+    "sounds": ["custom/solarflare/plant"]
   }
 }
