@@ -14,6 +14,11 @@
           "model": "minecraft:sunflower/sunflower"}
       },
 
+      { "when": "sunflower_twinsunflower", "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:sunflower/twinsunflower"}
+      },
+
       { "when": "sunflower_repeater", "model": {
           "type": "minecraft:model",
           "model": "minecraft:sunflower/repeater"}
