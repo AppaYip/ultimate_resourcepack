@@ -3,7 +3,8 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "item/rika",
-		"1": "item/rika_shadow"
+		"1": "item/rika_shadow",
+		"particle": "item/rika"
 	},
 	"elements": [
 		{

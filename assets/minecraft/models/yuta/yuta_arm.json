@@ -2,7 +2,8 @@
 	"format_version": "1.21.11",
 	"credit": "Made with Blockbench",
 	"textures": {
-		"1": "item/yuta_arm"
+		"1": "item/yuta_arm",
+		"particle": "item/rika"
 	},
 	"elements": [
 		{
