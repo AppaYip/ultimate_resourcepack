@@ -4,7 +4,7 @@
 	"texture_size": [64, 64],
 	"textures": {
 		"0": "item/pot",
-		"1": "item/repeater",
+		"1": "item/arepeater",
 		"particle": "item/pot"
 	},
 	"elements": [
