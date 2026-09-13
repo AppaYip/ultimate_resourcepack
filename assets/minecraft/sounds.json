@@ -332,6 +332,9 @@
   "wally_west": {
     "sounds": ["custom/wally_west"]
   },
+  "sonic_theme": {
+    "sounds": ["custom/sonic_theme"]
+  },
   "kurourushi_ult": {
     "sounds": ["custom/kurourushi_ult"]
   },
@@ -480,10 +483,36 @@
   "cobcannon_launch": {
     "sounds": ["custom/solarflare/cobcannon_launch"]
   },
-    "plant2": {
+  "plant2": {
     "sounds": ["custom/solarflare/plant2"]
   },
-    "plant1": {
+  "plant1": {
     "sounds": ["custom/solarflare/plant"]
+  },
+
+  "frisk_slash": {
+    "sounds": ["custom/frisk/frisk_slash"]
+  },
+  "frisk_save": {
+    "sounds": ["custom/frisk/frisk_save"]
+  },
+  "frisk_select": {
+    "sounds": ["custom/frisk/frisk_select"]
+  },
+  "frisk_grab": {
+    "sounds": ["custom/frisk/frisk_grab"]
+  },
+  "frisk_damage": {
+    "sounds": ["custom/frisk/frisk_damage"]
+  },
+  "frisk_heal": {
+    "sounds": ["custom/frisk/frisk_heal"]
+  },
+  "frisk_glove": {
+    "sounds": ["custom/frisk/frisk_glove"]
+  },
+  "frisk_spare": {
+    "sounds": ["custom/frisk/frisk_spare"]
   }
+
 }
