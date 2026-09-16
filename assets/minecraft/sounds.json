@@ -531,5 +531,14 @@
   },
   "frisk_start": {
     "sounds": ["custom/frisk/frisk_start"]
+  },
+  "frisk_laugh": {
+    "sounds": ["custom/frisk/frisk_laugh"]
+  },
+  "frisk_megalo_short": {
+    "sounds": ["custom/frisk/frisk_megalo_short"]
+  },
+  "frisk_megalo_long": {
+    "sounds": ["custom/frisk/frisk_megalo_long"]
   }
 }
