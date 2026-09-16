@@ -513,5 +513,23 @@
   },
   "frisk_spare": {
     "sounds": ["custom/frisk/frisk_spare"]
+  },
+  "frisk_hurt": {
+    "sounds": ["custom/frisk/frisk_hurt"]
+  },
+  "frisk_pan": {
+    "sounds": ["custom/frisk/frisk_pan"]
+  },
+  "frisk_impact": {
+    "sounds": ["custom/frisk/frisk_impact"]
+  },
+  "frisk_click": {
+    "sounds": ["custom/frisk/frisk_click"]
+  },
+  "frisk_heavydamage": {
+    "sounds": ["custom/frisk/frisk_heavydamage"]
+  },
+  "frisk_start": {
+    "sounds": ["custom/frisk/frisk_start"]
   }
 }

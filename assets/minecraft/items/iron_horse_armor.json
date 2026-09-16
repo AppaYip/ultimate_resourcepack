@@ -50,6 +50,13 @@
           "type": "minecraft:model",
           "model": "minecraft:yuta/rikafull"
         }
+      },
+      {
+        "when": "heart",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:frisk/heart"
+        }
       }
     ]
   }
