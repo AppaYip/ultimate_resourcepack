@@ -15,6 +15,13 @@
           "type": "minecraft:model",
           "model": "minecraft:grim/scythe"
         }
+      },
+      {
+        "when": "frisk_glove",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:frisk/tough_glove"
+        }
       }
     ]
   }
