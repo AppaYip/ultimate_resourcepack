@@ -31,6 +31,14 @@
           "type": "minecraft:model",
           "model": "minecraft:gojo/gojo_hand"
         }
+      },
+
+      {
+        "when": "frisk_glove",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:frisk/tough_glove"
+        }
       }
     ]
   }

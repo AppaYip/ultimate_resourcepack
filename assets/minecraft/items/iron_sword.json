@@ -34,10 +34,10 @@
       },
 
       {
-        "when": "toji_spear",
+        "when": "frisk_knife",
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:toji/spear"
+          "model": "minecraft:frisk/real_knife"
         }
       }
 

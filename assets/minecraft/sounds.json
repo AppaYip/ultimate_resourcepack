@@ -540,5 +540,26 @@
   },
   "frisk_megalo_long": {
     "sounds": ["custom/frisk/frisk_megalo_long"]
+  },
+  "tracer_theme": {
+    "sounds": ["custom/skins/tracer_theme"]
+  },
+  "funtime_theme": {
+    "sounds": ["custom/skins/funtime_theme"]
+  },
+  "flowery_theme": {
+    "sounds": ["custom/skins/flowery/flower_man"]
+  },
+  "flowery2": {
+    "sounds": ["custom/skins/flowery/flowery2"]
+  },
+  "flowery4": {
+    "sounds": ["custom/skins/flowery/flowery4"]
+  },
+  "flowery8": {
+    "sounds": ["custom/skins/flowery/flowery8"]
+  },
+  "flowery10": {
+    "sounds": ["custom/skins/flowery/flowery10"]
   }
 }
