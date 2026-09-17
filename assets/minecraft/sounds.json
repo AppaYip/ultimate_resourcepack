@@ -541,25 +541,54 @@
   "frisk_megalo_long": {
     "sounds": ["custom/frisk/frisk_megalo_long"]
   },
+
   "tracer_theme": {
     "sounds": ["custom/skins/tracer_theme"]
   },
   "funtime_theme": {
     "sounds": ["custom/skins/funtime_theme"]
   },
+
   "flowery_theme": {
     "sounds": ["custom/skins/flowery/flower_man"]
+  },
+  "flowery1": {
+    "sounds": ["custom/skins/flowery/flowery1"]
   },
   "flowery2": {
     "sounds": ["custom/skins/flowery/flowery2"]
   },
+  "flowery3": {
+    "sounds": ["custom/skins/flowery/flowery3"]
+  },
   "flowery4": {
     "sounds": ["custom/skins/flowery/flowery4"]
+  },
+  "flowery5": {
+    "sounds": ["custom/skins/flowery/flowery5"]
+  },
+  "flowery6": {
+    "sounds": ["custom/skins/flowery/flowery6"]
+  },
+  "flowery7": {
+    "sounds": ["custom/skins/flowery/flowery7"]
   },
   "flowery8": {
     "sounds": ["custom/skins/flowery/flowery8"]
   },
+  "flowery9": {
+    "sounds": ["custom/skins/flowery/flowery9"]
+  },
   "flowery10": {
     "sounds": ["custom/skins/flowery/flowery10"]
+  },
+  "flowery11": {
+    "sounds": ["custom/skins/flowery/flowery11"]
+  },
+  "flowery_jarona": {
+    "sounds": ["custom/skins/flowery/flowery_jarona"]
+  },
+  "flowery_jarona2": {
+    "sounds": ["custom/skins/flowery/flowery_jarona2"]
   }
 }
