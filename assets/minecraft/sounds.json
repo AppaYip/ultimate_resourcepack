@@ -548,6 +548,9 @@
   "funtime_theme": {
     "sounds": ["custom/skins/funtime_theme"]
   },
+  "butcher_theme": {
+    "sounds": ["custom/skins/butcher_theme"]
+  },
 
   "flowery_theme": {
     "sounds": ["custom/skins/flowery/flower_man"]
