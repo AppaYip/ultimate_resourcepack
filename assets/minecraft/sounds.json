@@ -404,6 +404,9 @@
   "vergil_motivated": {
     "sounds": ["custom/vergil_motivated"]
   },
+  "vergil_judgement_cut": {
+    "sounds": ["custom/vergil_judgement_cut"]
+  },
   "vergil_storm": {
     "sounds": ["custom/vergil_storm"]
   },
