@@ -57,6 +57,13 @@
           "type": "minecraft:model",
           "model": "minecraft:frisk/heart"
         }
+      },
+      {
+        "when": "dr_faust",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:dante/dr_faust"
+        }
       }
     ]
   }
