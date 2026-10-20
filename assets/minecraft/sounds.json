@@ -545,6 +545,13 @@
     "sounds": ["custom/frisk/frisk_megalo_long"]
   },
 
+  "grace_parry": {
+    "sounds": ["custom/raphael/grace_parry"]
+  },
+  "raphael_damn": {
+    "sounds": ["custom/raphael/raphael_damn"]
+  },
+
   "tracer_theme": {
     "sounds": ["custom/skins/tracer_theme"]
   },
