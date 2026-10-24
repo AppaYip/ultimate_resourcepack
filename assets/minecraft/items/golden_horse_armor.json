@@ -1,0 +1,42 @@
+{
+  "oversized_in_gui": true,
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/golden_horse_armor"
+    },
+    "cases": [
+      {
+        "when": "dozer_sleep",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:raphael/dozer_sleep"
+        }
+      },
+      {
+        "when": "dozer_sleep2",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:raphael/dozer_sleep2"
+        }
+      },
+      {
+        "when": "dozer_active",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:raphael/dozer_active"
+        }
+      },
+      {
+        "when": "dozer_active2",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:raphael/dozer_active2"
+        }
+      }
+    ]
+  }
+}

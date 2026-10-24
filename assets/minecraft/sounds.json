@@ -562,6 +562,11 @@
     "sounds": ["custom/skins/butcher_theme"]
   },
 
+  "mahoraga_wheel": {
+    "sounds": ["custom/skins/mahoraga_wheel"]
+  },
+
+
   "flowery_theme": {
     "sounds": ["custom/skins/flowery/flower_man"]
   },

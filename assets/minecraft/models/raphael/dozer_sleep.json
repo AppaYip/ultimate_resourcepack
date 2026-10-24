@@ -1,0 +1,48 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:builtin/entity",
+	"texture_size": [32, 40],
+	"textures": {
+		"1": "item/dozer_static"
+	},
+	"elements": [
+		{
+			"name": "static",
+			"from": [0.5, 2, 7.25],
+			"to": [15.5, 17, 7.35],
+			"rotation": {"angle": 0, "axis": "y", "origin": [3.5, 5, 7.25]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"east": {"uv": [0, 0, 0, 0], "texture": "#1"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"west": {"uv": [0, 0, 0, 0], "texture": "#1"},
+				"up": {"uv": [0, 0, 0, 0], "texture": "#1"},
+				"down": {"uv": [0, 0, 0, 0], "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"firstperson_righthand": {
+			"rotation": [-25, 0, 0],
+			"translation": [0, 1, 0]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-25, -90, 0],
+			"translation": [0, 1, 0]
+		},
+		"gui": {
+			"rotation": [0, 90, 0],
+			"scale": [2, 2, 2]
+		}
+	},
+	"groups": [
+		{
+			"name": "dozer",
+			"origin": [8, 8, 8],
+			"scope": 0,
+			"color": 0,
+			"children": [0]
+		}
+	]
+}
