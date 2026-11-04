@@ -425,9 +425,6 @@
   "hollow_purple": {
     "sounds": ["custom/hollow_purple"]
   },
-  "domain_clash": {
-    "sounds": ["custom/domain_clash"]
-  },
   "rika_1": {
     "sounds": ["custom/rika_1"]
   },
@@ -566,6 +563,12 @@
     "sounds": ["custom/skins/mahoraga_wheel"]
   },
 
+  "domain_clash": {
+    "sounds": ["custom/domains/domain_clash"]
+  },
+  "judas_clash": {
+    "sounds": ["custom/domains/judas_clash"]
+  },
 
   "flowery_theme": {
     "sounds": ["custom/skins/flowery/flower_man"]
