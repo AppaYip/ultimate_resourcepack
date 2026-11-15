@@ -275,24 +275,24 @@
   "round_2": {
     "sounds": ["custom/round_2"]
   },
-  "cuphead_start1": {
-    "sounds": ["custom/cuphead_start1"]
+  
+  "cuphead_start": {
+    "sounds": [
+      "custom/cuphead_start1",
+      "custom/cuphead_start2"
+    ]
   },
-  "cuphead_start2": {
-    "sounds": ["custom/cuphead_start2"]
+
+  "cuphead": {
+    "sounds": [
+      "custom/cuphead_1",
+      "custom/cuphead_2",
+      "custom/cuphead_3",
+      "custom/cuphead_4"
+    ]
   },
-  "cuphead_1": {
-    "sounds": ["custom/cuphead_1"]
-  },
-  "cuphead_2": {
-    "sounds": ["custom/cuphead_2"]
-  },
-  "cuphead_3": {
-    "sounds": ["custom/cuphead_3"]
-  },
-  "cuphead_4": {
-    "sounds": ["custom/cuphead_4"]
-  },
+  
+
   "you_absolute_idiot": {
     "sounds": ["custom/you_absolute_idiot"]
   },
