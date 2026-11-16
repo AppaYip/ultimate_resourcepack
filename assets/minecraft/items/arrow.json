@@ -1,0 +1,28 @@
+{
+  "oversized_in_gui": true,
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/arrow"
+    },
+    "cases": [
+      {
+        "when": "arrow_left",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:lobby/arrow_left"
+        }
+      },
+      {
+        "when": "arrow_right",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:lobby/arrow_right"
+        }
+      }
+    ]
+  }
+}
