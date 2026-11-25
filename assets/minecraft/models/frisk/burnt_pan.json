@@ -4,10 +4,10 @@
 	"parent": "block/block",
 	"ambientocclusion": false,
 	"textures": {
-		"particle": "farmersdelight:block/skillet_top",
-		"top": "farmersdelight:block/skillet_top",
-		"side": "farmersdelight:block/skillet_side",
-		"bottom": "farmersdelight:block/skillet_bottom"
+		"particle": "item/pan_top",
+		"top": "item/pan_top",
+		"side": "item/pan_side",
+		"bottom": "item/pan_bottom"
 	},
 	"elements": [
 		{
@@ -82,7 +82,7 @@
 	],
 	"display": {
 		"thirdperson_righthand": {
-			"rotation": [94, 0, 0],
+			"rotation": [91, 0, 0],
 			"translation": [0, 8, 5.5],
 			"scale": [0.7, 0.7, 0.7]
 		},
