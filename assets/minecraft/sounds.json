@@ -107,21 +107,6 @@
   "mobiliflash": {
     "sounds": ["custom/mobiliflash"]
   },
-  "pyrax_cleave": {
-    "sounds": ["custom/pyrax_cleave"]
-  },
-  "pyrax_kai": {
-    "sounds": ["custom/pyrax_kai"]
-  },
-  "pyrax_domain": {
-    "sounds": ["custom/pyrax_domain"]
-  },
-  "pyrax_domain2": {
-    "sounds": ["custom/pyrax_domain2"]
-  },
-  "sukuna_sfx": {
-    "sounds": ["custom/sukuna_sfx"]
-  },
   "snare_theme": {
     "sounds": ["custom/snare_theme"]
   },
@@ -472,6 +457,40 @@
   },
   "brain_fart": {
     "sounds": ["custom/brain_fart"]
+  },
+
+  "pyrax_cleave": {
+    "sounds": ["custom/pyrax/cleave"]
+  },
+  "pyrax_dismantle": {
+    "sounds": ["custom/pyrax/dismantle"]
+  },
+  "pyrax_kai": {
+    "sounds": ["custom/pyrax/kai"]
+  },
+  "pyrax_domain": {
+    "sounds": ["custom/pyrax/domain"]
+  },
+  "pyrax_domain2": {
+    "sounds": ["custom/pyrax/domain2"]
+  },
+  "malevolent_shrine": {
+    "sounds": ["custom/pyrax/malevolent_shrine"]
+  },
+  "sukuna_sfx": {
+    "sounds": ["custom/pyrax/sukuna_sfx"]
+  },
+  "sukuna_mahoraga": {
+    "sounds": ["custom/pyrax/sukuna_mahoraga"]
+  },
+  "kokusen_1": {
+    "sounds": ["custom/pyrax/kokusen_1"]
+  },
+  "kokusen_2": {
+    "sounds": ["custom/pyrax/kokusen_2"]
+  },
+  "kokusen_3": {
+    "sounds": ["custom/pyrax/kokusen_3"]
   },
 
   "peashooter_shoot": {
